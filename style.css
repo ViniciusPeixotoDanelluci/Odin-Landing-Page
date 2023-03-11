@@ -5,9 +5,18 @@
 .flex-container {
     display: flex;
     justify-content: space-around;
-  }
+    align-items: center;
+}
+
+.flex-container > div {
+    padding: 16;
+    margin: 5px;
+}
 
 header{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
@@ -18,18 +27,44 @@ header{
     color: #f9faf8;
 }
 
-.hero_main{
+.hero_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 20em;
+}
+
+.hero_main{
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
     align-items: center;
 }
 
-.hero_sec{
+.hero_div {
+    position: relative;
+    width: 440px;
+    height: 230px;
+}
+
+.hero_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/placeholder.png);
+    background-size: 100% 100%;
+}
+#hero_margin {
+    margin: 40px;
+}
+.hero_secondary{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 footer {
     background-color: #1F2937;
 }
