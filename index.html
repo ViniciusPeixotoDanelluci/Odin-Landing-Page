@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Flex Page</title>
-</head>
-<body>
-    <header>
-        <div class="flex-container">
-            <div><img src="img/odin-icon.svg"></div>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Flex Page</title>
+    </head>
+    <body>
+        <header>
             <div class="flex-container">
-                <div>Venda</div>
-                <div>Social</div>
-                <div>Comunidade</div>
+                <div><img src="img/odin-icon.svg"></div>
+                <div class="flex-container">
+                    <div>Venda</div>
+                    <div>Social</div>
+                    <div>Comunidade</div>
+                </div>
+            </div>
+        </header>
+        <div class="hero_box">
+            <div class="hero_div" id="hero_margin"> <!--div com os textos-->
+                <div class="hero_main">Um ótimo website!</div>
+                <div class="hero_secondary"> 
+                    <!--adicionar uma forma de diminuir o texto conforme o tamanho da janela depois-->
+                    Este website tem esse texto que vai embaixo do texto principal.
+                    Ele tem um tamanho de fonte menor e a cor tem menos contraste</div>
+                <div class="hero_secondary">
+                    <button>Se inscreva!</button>
+                </div>
+            </div>
+            <div class="hero_div hero_image" id="hero_margin">
+                Insira algo aqui
+            </div> <!--div com a imagem hero-->
+        </div>
+        <p></p>
+        <div class="flex-container">
+            Alguma informação qualquer
+        </div>
+        <div class="squares_container">
+            <div class="squares">imagem</div>
+            <div class="squares">imagem</div>
+            <div class="squares">imagem</div>
+            <div class="squares">imagem</div>
+            
+            <div class="subtext">Uma informação interessante sobre a imagem a cima</div>
+            <div class="subtext">Uma informação interessante sobre a imagem a cima</div>
+            <div class="subtext">Uma informação interessante sobre a imagem a cima</div>
+            <div class="subtext">Uma informação interessante sobre a imagem a cima</div>
+        </div>
+        <div class="quote_background"> <!--quote-->
+            <div class="quote_text">
+                “Não há nem felicidade nem infelicidade neste mundo, há apenas a comparação de um estado com outro. 
+                Apenas um homem que se sentiu o desespero final é capaz de sentir a felicidade suprema. 
+                É necessário ter desejado a morte a fim de saber como é bom viver. 
+                A soma de toda a sabedoria humana será contida nestas duas palavras: esperar e ter esperança.”
+                <br>-Dumas, Alexandre
             </div>
         </div>
-    </header>
-    <div class="hero_box">
-        <div class="hero_div" id="hero_margin"> <!--div com os textos-->
-            <div class="hero_main">Um ótimo website!</div>
-            <div class="hero_secondary"> 
-                <!--adicionar uma forma de diminuir o texto conforme o tamanho da janela depois-->
-                Este website tem esse texto que vai embaixo do texto principal.
-                Ele tem um tamanho de fonte menor e a cor tem menos contraste</div>
-            <div class="hero_secondary">
-                <button>Se inscreva!</button>
-            </div>
-        </div>
-        <div class="hero_div hero_image" id="hero_margin">
-            Insira algo aqui
-        </div> <!--div com a imagem hero-->
-    </div>
-</body>
+        <footer>
+
+
+            
+        </footer>
+    </body>
 </html>
